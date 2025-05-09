@@ -1,16 +1,20 @@
-"use client";
+'use client'
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "./globals.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Script from "next/script";
 import BootstrapComponet from "./Components/BootstrapComponent";
 import Footer from "./Components/Footer/Footer";
 import NextAuthSessionProvider from "./provider/NextAuthSessionProvider";
+import { usePathname } from "next/navigation";
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pathname=usePathname();
   return (
     <html lang="en">
       <head>
@@ -36,9 +40,13 @@ export default function RootLayout({
       </head>
       <body>
        <NextAuthSessionProvider>
-       <Navbar></Navbar>
+        {!pathname.startsWith('/admin') && (
+        <Navbar></Navbar>
+      )}
         {children}
+         {!pathname.startsWith('/admin') && (
         <Footer></Footer>
+      )}
         <BootstrapComponet></BootstrapComponet>
        </NextAuthSessionProvider>
         <Script

@@ -1,0 +1,99 @@
+.container {
+  padding: 24px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 100px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.edit-form {
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.edit-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.edit-input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.edit-buttons {
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-btn {
+  background-color: #0070f3;
+  color: white;
+}
+
+.cancel-btn {
+  margin-left: 10px;
+  color: red;
+  background-color: transparent;
+}
+
+.product-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.product-card {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.product-details {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.product-price {
+  font-size: 12px;
+  color: #555;
+}
+
+.product-actions .btn {
+  margin-left: 6px;
+}
+
+.edit-btn {
+  background-color: #facc15;
+  color: #000;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}

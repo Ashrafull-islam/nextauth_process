@@ -664,6 +664,7 @@ export default function Navbar() {
         </section>
         {/* down bar end  */}
       </header>
+
     </>
   );
 }
