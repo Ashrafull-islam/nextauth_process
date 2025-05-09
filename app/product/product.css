@@ -1,0 +1,357 @@
+/* product css start  */
+main .product-container {
+    overflow: hidden;
+}
+main .product-container .breadcrumb a {
+    text-decoration: none;
+    color: #666;
+}
+main .product-container .breadcrumb .breadcrumb-item {
+    font-size: 14px;
+    font-family: "lato";
+    color:rgb(36, 36, 36) ;
+    line-height: 22px;
+}
+main .product-container .chocolate-head {
+    font-size: 34px;
+    font-family: "Signika";
+    font-weight: 500;
+    color:rgb(51, 51, 51) ;
+    line-height: 40px;
+}
+main .product-container .breadcrumb a:hover {
+    color: var(--primary-green);
+}
+.product-container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+main .product-container .h3 {
+    font-size: 21px;
+    font-family:"lato";
+    font-weight: 600;
+    color:rgb(46, 112, 70) ;
+    line-height: 26px;
+}
+main .product-container .price {
+    font-size: 21px;
+    font-family: "lato";
+    font-weight: 600;
+    color:rgb(187, 187, 187) ;
+    line-height: 30px;
+}
+main .product-container .product-description {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "lato";
+    color:rgb(119, 119, 119) ;
+    line-height: 22px;
+}
+/* Product Gallery */
+main .product-container .product-gallery {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+main .product-container .product-gallery .side-img img {
+    width: 130px;
+    height: 120px;
+    opacity: 0.6;
+}
+main .product-container .product-gallery .side-img img:hover {
+    opacity:1;
+
+}
+
+main .product-container .product-gallery .main-image-container {
+    flex-grow: 1;
+}
+
+main .product-container .product-gallery .main-image-container img {
+    width: 100%;
+    height:80%;
+    border-radius: 5px;
+}
+
+main .product-container .weight-select {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .product-container  .weight-select.active {
+    border-color: var(--primary-green);
+    background-color: var(--primary-green);
+    color: white;
+}
+
+main .product-container  .weight-select:hover {
+    border-color: var(--primary-green);
+}
+
+
+main .product-container .quantity-selector {
+    width: 90px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+main .product-container  .quantity-selector input {
+    border: none;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+main .product-container  .quantity-selector button {
+    border: none;
+    background: #f8f9fa;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+main .product-container  .quantity-selector button:hover {
+    background: #e2e6ea;
+}
+
+
+main .product-container .btn-cart, .btn-buy {
+    background-color:#2E7046;
+    font-weight: 600;
+    font-family: "lato";
+    color:rgb(255, 255, 255);
+    padding: 8px 25px;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+main .product-container .btn-cart:hover,main .product-container .btn-buy:hover {
+    background-color: #86ff8e;
+    color:rgb(255, 255, 255);
+}
+
+
+main .product-container .wishlist-link {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-weight: "lato";
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+main .product-container .product-info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "lato";
+    color: rgb(51, 51, 51);
+}
+main .product-container .accordion-button {
+    background-color: transparent !important;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: "lato";
+    color: rgb(46, 112, 70);
+}
+
+main .product-container .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+main .product-container .accordion-icon {
+    background-color: transparent !important;
+}
+main .product-container .description .borderless-accordion .accordion .accordion-item .accordion-collapse .accordion-body .chocolate-accordion {
+    height: 300px;
+    width: 100%;
+    overflow: auto; 
+}
+main .product-container .description .borderless-accordion .accordion .accordion-item .accordion-collapse .accordion-body .chocolate-accordion .Chocolate-bold {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: "Signika";
+    color: rgb(36, 36, 36);
+}
+main .product-container .description .borderless-accordion .accordion .accordion-item .accordion-collapse .accordion-body .chocolate-accordion .Chocolate-normal {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "Signika";
+    color: rgb(119, 119, 119);
+    margin-top: 15px;
+}
+main .product-container .accordion-collapse .accordion-body .Chocolate-weight {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: "Signika";
+    color: rgb(36, 36, 36);
+}
+
+main .swiper-card {
+    position: relative;
+    max-width: 1220px;
+    margin: 0 auto;
+    height: auto;
+    background: #FCFAF8;
+}
+
+/* Keep swiper styles */
+main .swiper-card .swiper-container .swiper {
+    width: 100%;
+    height: auto;
+}
+
+main .swiper-card .swiper-container .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .swiper-card .swiper-container .swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card {
+    width: 240px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+    position: relative;
+    text-align: center;
+}
+
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .chocolate-p {
+    color: #000;
+    font-family: "Signika";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .price {
+    color: #2E7046;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+}
+
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .card-btn {
+    padding: 20px 80px;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background: #2E7046;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .card-btn::before,
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .card-btn::after {
+    content: "SELECT OPTION";
+    position: absolute;
+    transition: opacity 0.4s, transform 0.2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .card-btn::after {
+    content: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ffffff' class='bi bi-eye-fill' viewBox='0 0 16 16'%3E%3Cpath d='M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0'/%3E%3Cpath d='M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7'/%3E%3C/svg%3E");
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(10px);
+}
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .card-btn:hover::before {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-10px);
+}
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .card-btn:hover::after {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card .hover-icon {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: #FFF;
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: opacity 0.2s, transform 0.5s;
+    cursor: pointer;
+}
+
+main .other-container .swiper-card .swiper-container .swiper .swiper-wrapper .swiper-slide .card:hover .hover-icon {
+    opacity: 1;
+    transform: translateX(-10px);
+}
+@media screen and (max-width:1024px) {
+        /* product css */
+        main.product-container {
+            padding: 0px 10px;
+        }
+    
+        main .product-container .chocolate-head {
+            font-size: 24px;
+            font-family: "Signika";
+            font-weight: 500;
+            color: rgb(51, 51, 51);
+            line-height: 28px;
+        }
+    
+        main .product-container .btn-cart,
+        .btn-buy {
+            padding: 8px 20px;
+            border: none;
+            transition: background 0.3s ease;
+        }
+}
+
+@media screen and (max-width:400px) {
+    main .product-container .btn-cart,
+    .btn-buy {
+        padding: 8px 10px;
+        font-size: 14px;
+        border: none;
+        transition: background 0.3s ease;
+    }
+
+}

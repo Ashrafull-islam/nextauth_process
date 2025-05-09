@@ -1,0 +1,272 @@
+/* details section start  */
+main .details-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main .details-container .details-content .left-side .ghee-kitchen {
+    display: inline-block;
+    padding: 0px 10px;
+    background: #2E7046;
+    color: #FFF;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+main .details-container .details-content .left-side .ghee-head {
+    font-family: "Signika";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    color: rgb(51, 51, 51);
+}
+
+main .details-container .details-content .left-side .icons {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "lato";
+    color: rgb(165, 165, 165);
+}
+
+main .details-container .details-content .left-side .ghee-img img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+main .details-container .details-content .text-large {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "lato";
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+
+main .details-container .details-content .text-bold {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "lato";
+    font-weight: 600;
+    color: rgb(119, 119, 119);
+}
+
+main .details-container .details-content .text-normal {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "lato";
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+
+/* form css  */
+/* Comment Form CSS */
+.main .details-container .details-content .left-side .comment-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main .comment-section .form-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+    font-family: "Signika";
+}
+
+main .details-container .details-content .left-side .comment-section .comment-form .required {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+main .details-container .details-content .left-side .comment-section .comment-form .required::after {
+    content: " *";
+    color: #666;
+}
+
+main .details-container .details-content .form-label,
+main .details-container .details-content .privacy-notice {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(36, 36, 36);
+    font-weight: 400;
+    font-family: "lato";
+}
+
+main .details-container .comment-section .colors {
+    color: rgb(119, 119, 119) !important;
+}
+
+main .details-container .details-content .left-side .comment-section .comment-form .form-control {
+    border: 2px solid #E4E4E5;
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+main .details-container .details-content .left-side .comment-section .comment-form .form-control:focus {
+    border-color: #0B6B3D;
+    box-shadow: none;
+}
+
+main .details-container .details-content .left-side .comment-section .comment-form textarea.form-control {
+    min-height: 150px;
+}
+
+main .details-container .details-content .left-side .comment-section .comment-form .form-check {
+    margin-top: 1rem;
+}
+
+main .details-container .details-content .left-side .comment-section .comment-form .form-check-label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+main .details-container .details-content .btn-comment {
+    background-color: #0B6B3D;
+    color: white;
+    border: none;
+    font-family: "lato";
+    padding: 0.5rem 1.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+main .details-container .details-content .btn-comment:hover {
+    background-color: #39ad7d;
+    color: white;
+}
+
+main .details-container .details-content .left-side .ghee-text .icon-conainer .icon-content .tags-container .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #495057;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: "lato";
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+main .details-container .details-content .left-side .ghee-text .icon-conainer .icon-content .tags-container .tag:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+main .details-container .details-content hr {
+    color: rgb(51, 51, 51);
+}
+
+main .details-container .details-content .end-justice {
+    width: 300px;
+}
+
+main .details-container .details-content .order {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(187, 187, 187);
+    font-family: "lato";
+}
+
+main .details-container .details-content .achar {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    color: rgb(36, 36, 36);
+    font-family: "Signika";
+}
+
+main .details-container .details-content .horizental-line {
+    border: 2px solid #E5E5E4;
+    border-left: none;
+    border-right: none;
+}
+
+main .right-side .right-side-container .search-container {
+    padding: 0px 20px;
+}
+
+main .details-container .details-content .btn-search {
+    padding: 11px 27px;
+    border-radius: 5px;
+    background: #F3F3F3;
+    border: none;
+    color: rgb(62, 62, 62);
+    font-family: "lato";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+main .details-container .details-content .right-bold {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    color: rgb(36, 36, 36);
+    font-family: "Signika";
+}
+main .details-container .details-content  .right-normal {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(118, 118, 118);
+    font-family: "lato";
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+main .details-container .details-content  .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: gray !important;
+}
+main .details-container .details-content img{
+     height: auto;
+     width: 100%;
+}
+
+
+
+@media screen and (max-width:567px) {
+
+    main .details-container .details-content .left-side .ghee-kitchen {
+        display: inline-block;
+        padding: 0px 10px;
+        background: #2E7046;
+        color: #FFF;
+        font-family: "Lato";
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    main .details-container .details-content .left-side .ghee-head {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    main .details-container .details-content .left-side .icons {
+        margin-top: 15px;
+        font-size: 12px;
+        line-height: 22px;
+        font-family: "lato";
+        color: rgb(165, 165, 165);
+    }
+}

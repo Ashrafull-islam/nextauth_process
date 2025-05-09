@@ -1,0 +1,775 @@
+/* hero section start  */
+main .slider-section {
+    width: 100%;
+    height: 650px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .slider-section .custom-swiper {
+    width: 100%;
+    height: 100%;
+}
+
+main .slider-section .custom-swiper .swiper-wrapper {
+    display: flex;
+}
+
+main .slider-section .custom-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .slider-section .custom-swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .slider-section .custom-swiper .swiper-button-next,
+main .slider-section .custom-swiper .swiper-button-prev {
+    color: var(--white-text-color);
+    font-size: 24px; 
+    width: 20px;      
+    height: 50px;      
+}
+
+/* Optional: Customize button background */
+main .slider-section .custom-swiper .swiper-button-next::after,
+main .slider-section .custom-swiper .swiper-button-prev::after {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+main .slider-section .swiper-pagination-bullet {
+    padding: 6px;
+    border: 2px solid whitesmoke;
+}
+
+main .slider-section .swiper-pagination-bullet-active {
+    background: rgb(36, 36, 36);
+}
+/* large card section  start */
+main .loved-product {
+    padding: 40px 0px;
+}
+main .loved-product img {
+    max-width: 317px;
+}
+main main .product-section {
+    display: block;
+}
+
+main .swiper-card {
+    position: relative;
+    max-width: 1220px;
+    margin: 0 auto;
+    height: auto;
+    background: #FCFAF8;
+}
+/* Keep swiper styles */
+main .swiper-card .swiper-container .swiper {
+    width: 100%;
+    height: auto;
+}
+
+main .swiper-card .swiper-container .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: var(--besic-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .swiper-card .swiper-container .swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .swiper-card .swiper-container .swiper .swiper-button-next,
+main .swiper-card .swiper-container .swiper .swiper-button-prev {
+    color: rgb(88, 87, 87);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    /* Ensure buttons are not clickable */
+    transition: opacity 1s ease;
+    /* Only transition opacity */
+}
+
+main .swiper-card:hover .swiper-button-prev,
+main .swiper-card:hover .swiper-button-next {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    /* Make buttons interactive */
+    transition: opacity 1s ease;
+    /* Make them appear with fade effect */
+}
+
+
+.btn-box {
+    padding: 40px 0px;
+}
+
+/* large card section  end */
+/* card css for all device start */
+main .home-product-card-section {
+    background: #FCFAF8;
+}
+
+main .home-product-card-section .card-container {
+    padding: 0 40px;
+}
+
+main .home-product-card-section .card {
+    width: 240px;
+    height: 370px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #E5E5E4;
+    background: var(--besic-white);
+    position: relative;
+    text-align: center;
+}
+main .home-product-card-section .card .persent-badge{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #428F44;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+main .home-product-card-section .card .new-badge{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #2E8B57;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+main .home-product-card-section .see-btn {
+    padding: 10px 39px;
+    border-radius: 8px;
+    background: var(--green-text);
+    color: var(--besic-white);
+    font-family: "Hind Siliguri";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 0 auto;
+    border: none;
+    text-decoration: none;
+}
+
+/* this is card css.as this css use 2 time there that why it's not maintain sequence  */
+
+
+/* card css for all device end*/
+/* small card section  start */
+main .medium-card-container {
+    display: none;
+}
+
+/* small card section end  */
+/* pinat butter section start  */
+main .pinat-batter-section .pinat-container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+main .pinat-batter-section .pinat-text .pinat-head {
+    color: var(--green-text-color);
+    font-family: "Hind Siliguri";
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+main .pinat-batter-section .pinat-text .rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+main .pinat-batter-section .pinat-text .rating input {
+    display: none;
+}
+
+main .pinat-batter-section .pinat-text .rating label {
+    font-size: 18px;
+    color: gold;
+    cursor: pointer;
+}
+
+main .pinat-batter-section .pinat-text .rating-review {
+    color: var(--black-text-color);
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+main .pinat-batter-section .pinat-text .upokarita {
+    color: var(--grey-text-color);
+    font-family: "Hind Siliguri";
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.56px;
+}
+
+main .pinat-batter-section .pinat-text .pinat-batter-text {
+    color: var(--black-text-color);
+    font-family: "Hind Siliguri";
+    font-size: 22px;
+    font-weight: 400;
+    font-weight: 39px !important;
+}
+
+main .pinat-batter-section .pinat-text .order-btn {
+    display: inline-flex;
+    padding: 15px 49px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #276B41;
+    color: var(--besic-white);
+    font-family: "Hind Siliguri";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    border: none;
+}
+
+/* pinat batter section end  */
+/*  benner section start  */
+main .healthry-banner {
+    height: 332px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+main .healthry-banner .banner-text {
+    gap: 200px !important;
+}
+
+main .healthry-banner .banner-text .text-one {
+    color: rgb(36, 67, 22);
+    font-family: "Inter";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: start;
+}
+
+main .healthry-banner .banner-text .text-two {
+    color: rgb(36, 67, 22);
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+/* banner section css end  */
+/* ghee section start  */
+main .ghee-section {
+    background: #E4F1DF;
+}
+
+main .ghee-section .ghee-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 60px 0px 0px 0px;
+}
+
+main .ghee-section .ghee-container .ghee-img img {
+    max-width: 350px;
+    height: auto;
+}
+main .ghee-section .ghee-container .ghee-text-content h2 {
+    color: var(--black-text-color);
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+}
+main .ghee-section .ghee-container .ghee-text-content .ghee-upokarita .ghee-icon {
+    height: 120px;
+    width: 120px;
+}
+main .ghee-section .ghee-container .ghee-text-content .ghee-upokarita .ghee-large-icon {
+    height: 100px;
+    width: 100px;
+}
+main .ghee-section .ghee-container .ghee-text-content .order-btn {
+    padding: 12px 30px;
+    justify-content: flex-end;
+    color: var(--besic-white);
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    border: none;
+    align-items: center;
+    border-radius: 4px;
+    background: rgba(0, 0, 0);
+}
+
+main .ghee-section .ghee-container .ghee-text-content .ghee-text h2 {
+    color: var(--black-text-color);
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+}
+
+main .ghee-section .ghee-container .ghee-text-content .ghee-text p {
+    color: var(--deep-grey);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.2px;
+}
+
+/* ghee section end  */
+/* banner css  */
+main .banner-section {
+    height: 255px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* review section start  */
+main .review-swiper-container {
+    position: relative;
+    width: 100%;
+    max-height:230px;
+    background: #E4F1DF;
+}
+
+/* Keep swiper styles */
+main .review-swiper-container .swiper {
+    max-width: 664px;
+    max-height:230px;
+    border-radius: 15px;
+}
+
+main .review-swiper-container .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: var(--besic-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .review-swiper-container .swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .review-swiper-container .swiper .swiper-button-next,
+main .review-swiper-container .swiper .swiper-button-prev {
+    color: var(--deep-green);
+    width: 10px !important;
+    height: 10px !important; 
+}
+main .review-swiper-container .swiper .swiper-button-next::after,
+main .review-swiper-container .swiper .swiper-button-prev::after {
+    font-size: 22px !important;
+    font-weight: 900;
+}
+
+main .client-review-section {
+    padding: 60px 41px 60px 41px;
+    background: #E4F1DF;
+}
+
+main .client-review-section .client-header {
+    color: var(--sky-green);
+    font-family: "Signika";
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+/* this also use in swiper slider for many time that why it's not maintain sequence  */
+main .client-review-section .review-swiper-container .swiper .swiper-wrapper .swiper-slide .review-card {
+    border-radius: 12px;
+    background: var(--besic-white);
+    display: flex;
+    width: 600px;
+    padding: 20px 20px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    flex-shrink: 0;
+}
+
+main .client-review-section .review-swiper-container .swiper .swiper-wrapper .swiper-slide .review-card  .review-text {
+    color: var(--deep-grey-text);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+main .client-review-section .review-swiper-container .swiper .swiper-wrapper .swiper-slide .review-card .review-name {
+    color: var(--deep-grey-text);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+main .client-review-section .review-swiper-container .swiper .swiper-wrapper .swiper-slide .review-card .review-intro {
+    color: var(--green-text);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* review section end  */
+/* blog section start  */
+main .blog-section {
+    padding: 40px 0px;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+main .blog-section .blog-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    gap: 20px;
+}
+main .blog-section .blog-header {
+    color: var(--deep-sky-green);
+    font-family: "Signika";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+main .blog-section .card-box {
+    display: flex;
+    max-width: auto;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--besic-white);
+    box-shadow: 4px 4px 6px 3px rgba(0, 0, 0, 0.25);
+}
+
+main .blog-section .card-box .card-date {
+    font-size: 13px;
+    font-family: "lato";
+    line-height: 22px;
+    color: rgb(165, 165, 165);
+}
+
+main .blog-section .card-box .card-text .mousumi-achar {
+    font-size: 22px;
+    font-family: "signika,arial";
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(51, 51, 51);
+}
+
+main .blog-section .card-box .card-text .card-texts {
+    font-size: 14px;
+    flex-grow: 1;
+    font-family: "lato";
+    line-height: 22px;
+    color: rgb(119, 119, 119);
+}
+
+main .blog-section .card-box .card-text h4 {
+    font-size: 13px;
+    font-family: "lato";
+    font-weight: 800;
+    line-height: 22px;
+    color: rgb(46, 112, 70);
+    cursor: pointer;
+}
+
+/* blog section end  */
+/* service section start  */
+main .service-container {
+    padding: 100px 20px 10px 20px;
+    margin: 0 auto;
+    background: rgb(228, 240, 222);
+}
+
+main .service-container .service-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+main .service-container .service-card .service-icon {
+    height: 55px;
+    width: 55px;
+}
+main .service-container .service-card .service .service-first {
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    color: rgb(49, 49, 49);
+}
+
+main .service-container .service-card .service .service-second {
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgb(0, 0, 0);
+}
+main .service-banner {
+    width: 100%;
+    height: 130px;
+    background-position: 55% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1360px) {
+    main .pinat-batter-section .pinat-container {
+        width: 100%;
+        padding: 60px 30px;
+    }
+    main .ghee-section .ghee-container {
+        width: 100%;
+        padding: 60px 30px;
+    }
+}
+@media screen and (max-width:1220px) {
+    main .blog-section {
+        padding: 40px 40px;
+        max-width: 1220px;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    main .slider-section {
+        height: 300px !important;
+    }
+    main .pinat-batter-section .pinat-text .pinat-head {
+        line-height: 40px;
+    }
+
+    main .slider-section .swiper-pagination-bullet {
+        padding: 4px !important;
+        border: 2px solid whitesmoke !important;
+    }
+    main .healthry-banner .banner-text {
+        width: 100%;
+        padding: 1px 0px;
+        justify-content: center !important;
+    }
+
+    main .healthry-banner .banner-text .text-one {
+        font-size: 34px;
+        line-height: 34px;
+        text-align: center !important;
+    }
+
+    main .healthry-banner .banner-text .text-two {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .improve-text {
+        color: #333;
+        font-family: "Hind Siliguri";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    main .ghee-section .ghee-container .ghee-img img {
+        max-width: 90%;
+        height: auto;
+    }
+    main .service-container .service-card .service .service-first {
+        font-size: 14px;
+        line-height: 19.4px;
+    }
+
+    main .service-container .service-card .service .service-second {
+        font-size: 10px;
+        line-height: 26px;
+    }
+    main .service-container {
+        padding: 40px 30px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:991px) {
+    main .ghee-section .ghee-container .ghee-text-content h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 14px;
+    }
+
+    main .ghee-section .ghee-container .ghee-text-content .ghee-text h2 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    main .ghee-section .ghee-container .ghee-text-content .ghee-text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 776px) {
+    main .slider-section {
+        height: 200px !important;
+    }
+    main .pinat-batter-section .pinat-text .pinat-head {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    main .pinat-batter-section .pinat-text .rating-review {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    main .pinat-batter-section .pinat-text .upokarita {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    main .pinat-batter-section .pinat-text .pinat-batter-text {
+        font-size: 18px;
+        text-align: start;
+    }
+
+    main .pinat-batter-section .pinat-text .order-btn {
+        padding: 18px 49px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    main .pinat-batter-section .pinat-container {
+        padding: 60px 20px;
+    }
+    main .healthry-banner {
+        height: auto;
+    }
+
+    /* pinat batter section start  */
+    main .healthry-banner .banner-text {
+        width: 100%;
+        padding: 1px 0px;
+        gap: 40px !important;
+    }
+    main .ghee-section .ghee-container {
+        padding: 60px 20px 10px 20px;
+    }
+
+    main .ghee-section .ghee-container .ghee-text-content h2 {
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 600;
+    }
+
+    main .ghee-section .ghee-container .ghee-text-content .order-btn {
+        width: 100%;
+    }
+
+    main .ghee-section .ghee-container .ghee-img {
+        text-align: center;
+    }
+
+    main .ghee-section .ghee-container .ghee-img img {
+        height: auto;
+        max-width: 300px !important;
+    }
+    .banner-section {
+        height: 100px;
+        width: 100%;
+    }
+    main .blog-section {
+        padding: 40px 20px;
+        max-width: 1220px;
+        margin: 0 auto;
+    }
+
+    main .blog-section .blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    main .blog-section .card-box {
+        border-radius: 10px !important;
+    }
+
+    main .blog-section .card-box img {
+        width: 100% !important;
+        height: auto;
+    }
+    main .service-container .service-card {
+        flex-direction: column;
+        gap: 2px;
+    }
+    main .service-container .service-card .service-icon {
+        height: 35px;
+        width: 35px;
+    }
+}
+@media screen and (max-width:768px) {
+    main .ghee-section .ghee-container .ghee-img img {
+        width: 100% !important;
+        height: auto;
+    }
+}
+@media screen and (max-width:512px) {
+    main .service-container {
+        padding: 40px 10px;
+    }
+}
